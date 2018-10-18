@@ -1,0 +1,18 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/hmnassiry/simple-java-maven-app.git
+ > git init /var/jenkins_home/workspace/First-Maven # timeout=10
+Fetching upstream changes from https://github.com/hmnassiry/simple-java-maven-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/hmnassiry/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/hmnassiry/simple-java-maven-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/hmnassiry/simple-java-maven-app.git # timeout=10
+Fetching upstream changes from https://github.com/hmnassiry/simple-java-maven-app.git
+ > git fetch --tags --progress https://github.com/hmnassiry/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e47ffb8d8d27ed2ec7b5c210f8851b82ff175a07 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e47ffb8d8d27ed2ec7b5c210f8851b82ff175a07
+Commit message: "Create Jenkinsfile"
+First time build. Skipping changelog.
