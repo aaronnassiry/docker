@@ -1,7 +1,5 @@
- [difference-between-copy-and-add-in-a-dockerile](https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile)
-
-  
-  https://vsupalov.com/build-docker-image-clone-private-repo-ssh-key/
+https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile
+https://vsupalov.com/build-docker-image-clone-private-repo-ssh-key/
   
   220  docker info
   221  docker ls
